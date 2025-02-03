@@ -45,7 +45,7 @@ elif app_mode == 'Disease Recognition':
 test_image = st.file_uploader('Choose an image:')
 
 if st.button('Show Image'):
-    st.image(test_image, width=400, use_column_width=True)
+    st.image(test_image, width=400, use_container_width=True)
 
 if st.button('Predict'):
     st.snow()
