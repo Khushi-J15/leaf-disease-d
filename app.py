@@ -28,8 +28,8 @@ def model_prediction(test_image):
     return np.argmax(predictions)
 
 # Streamlit UI setup
-st.sidebar.title("Plant Health Dashboard")
-app_mode = st.sidebar.selectbox('Select page', ['Home', 'Disease Recognition'])
+st.sidebar.title("🌿Plant Health Dashboard")
+app_mode = st.sidebar.selectbox('Select page', ['🏠Home', '🌿Disease Recognition'])
 
 # Logo for website 
 img = Image.open('Diseases.png') 
