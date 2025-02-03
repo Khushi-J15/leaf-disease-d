@@ -48,6 +48,7 @@ if st.button('Show Image'):
     st.image(test_image, width=400, use_column_width=True)
 
 if st.button('Predict'):
+    st.snow()
     with st.spinner("Processing..."):  # Spinner animation
         st.write('Our Prediction')
         result_index = model_prediction(test_image)
