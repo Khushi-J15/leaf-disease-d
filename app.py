@@ -53,10 +53,10 @@ app_mode = st.sidebar.selectbox('Select page', ['🏠Home', '🌿Disease Recogni
 img = Image.open('Diseases.png') 
 st.image(img)
 
-if app_mode == 'Home':
+if app_mode == '🏠Home':
     st.markdown("<h1 style='text-align: center;'>Plant Disease Detection System</h1>", unsafe_allow_html=True)
 
-elif app_mode == 'Disease Recognition':
+elif app_mode == '🌿Disease Recognition':
     st.header('Plant Disease Detection System for Sustainable Agriculture')
 
     # Image uploader
